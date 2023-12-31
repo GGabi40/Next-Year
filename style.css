@@ -69,7 +69,7 @@ section.count-down {
 
     padding: 10px;
 
-    font-size: 10rem;
+    font-size: 16rem;
     font-family: 'Bebas Neue', cursive;
     color: black;
 }
@@ -143,11 +143,20 @@ footer a {
         grid-template-columns: repeat(2, 0.5fr);
         justify-content: center;
         align-items: center;
+
+        gap: 5px;
     }
     
     .ofCount {
         min-width: 100px;
         margin: 0 auto;
+        font-size: 10rem;
+    }
+
+    section.count-down {
+        margin-top: 5rem;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     footer {
